@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+.logo {
+    width: 15%;
+    height: auto;
+    float: left;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    padding-right: 50px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.main-header{
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 10px 30px 10px 30px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.main-content {
+    float: left;
+    width: 60%;
+}
+
+aside {
+    float: right;
+    width: 40%;
+    background: lightblue;
+    margin-top: 30px;
+    padding: 20px;
+    outline: 2px solid black;
+}
+
+.main-footer {
+    background: lightblue;
+    padding: 10px 30px 10px 30px;
+    outline: 2px solid black;
+    text-align: center;
+}
+
+
